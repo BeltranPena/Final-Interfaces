@@ -452,6 +452,10 @@ footer div.leyend {
     min-height: 65vh;
 }
 
+.container > section{
+    margin-top: 0;
+}
+
 body section {
     width: 100vw;
     overflow: hidden;
@@ -1716,6 +1720,22 @@ div.feature-card p {
     }
 }
 
+#sprite{
+    margin: auto;
+    width: 125px;
+    height: 200px;
+    background: url("../images/lanzamiento/caminar.png") no-repeat;
+    animation: sprite 1s steps(8) infinite;
+}
+
+@keyframes sprite{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -1040px 0;
+    }
+}
 
 
 
